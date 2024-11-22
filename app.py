@@ -4,17 +4,8 @@ import datetime
 '''
 # TaxiFareModel front
 '''
-'''
-## Here we would like to add some controllers in order to ask the user to select the parameters of the ride
 
-1. Let's ask for:
-- date and time
-- pickup longitude
-- pickup latitude
-- dropoff longitude
-- dropoff latitude
-- passenger count
-'''
+
 with st.form(key="api_parameters"):
     date = st.date_input('date')
     time=st.time_input('time')
